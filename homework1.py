@@ -1,7 +1,7 @@
 def prime(n):
   if n <= 1:
     return False  # Returns True if n is a prime number, False otherwise
-  for i in range(2, int(n**0.5) + 1):
+  for i in range(2, int(n**0.5) + 1): # known common prime number validator
     if n % i == 0:
       return False
   return True
