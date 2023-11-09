@@ -1,13 +1,13 @@
 def prime(n):
   if n <= 1:
     return False  # Returns True if n is a prime number, False otherwise
-  for i in range(2, int(n**0.5) + 1): # known common prime number validator
+  for i in range(2, int(n**0.5) + 1): # known common prime number logical code validator
     if n % i == 0:
       return False
   return True
 
 def n_primes(n):
-  count = 0    #prints the firs N prime numbers
+  count = 0    # prints the first N prime numbers
   num = 2      # we start from the first prime number
   while count < n:
     if prime(num):
