@@ -12,7 +12,7 @@ def n_primes(n):
   while count < n:
     if prime(num):
       print(num)
-      count += 1
+      count += 1  #count incremental
     num += 1
 
 # user inputs N
